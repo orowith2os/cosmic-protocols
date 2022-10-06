@@ -34,3 +34,6 @@ wayland-backend = { version = "0.1.0-beta.10", features = ["client_system"] }
 default = ["client", "server"]
 client = ["wayland-client", "wayland-protocols/client"]
 server = ["wayland-server", "wayland-protocols/server"]
+
+[workspace]
+members = ["client-toolkit"]
